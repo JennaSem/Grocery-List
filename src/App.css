@@ -1,38 +1,87 @@
+body {
+    background-image: url('limon.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .App {
-  text-align: center;
+    background-color: #7dce1381;
+    min-height: 90vh;
+    width: 500px;
+    margin: 30px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crossed {
+    text-decoration: line-through 2px red;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+    flex:1;
+    padding: 8px;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+ul, li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    size: 20px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerOne {
+    margin-left: 35px;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.btn-add {
+    background-color: #EAE509;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    width: 70%;
+    color: black;
+    font-size: 16px;
+}
+
+.btn-delete {
+    background-color: #2B7A0B;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    width: 70%;
+    color: black;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    width: 70%;
+    color: black;
+    font-size: 16px;
+    
 }
